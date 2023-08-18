@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Developerdetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+    <RelativeLayout
+        android:id="@+id/shape_layout"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/myCardView"
+        android:padding="15dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:cardCornerRadius="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+        <ImageView
+            android:id="@+id/roundedimag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/srv"
+            />
+    </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+     <RelativeLayout
+         android:layout_width="15dp"
+         android:layout_height="15dp"/>
+
+    <RelativeLayout
+        android:id="@+id/shape_layout1"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/myCardView1"
+            android:padding="15dp"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            app:cardCornerRadius="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            >
+            <ImageView
+                android:id="@+id/roundedimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sdiddu"
+                />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="15dp"
+            android:layout_height="15dp"/>
+
+        <RelativeLayout
+            android:id="@+id/shape_layout2"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/myCardView2"
+                android:padding="15dp"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                app:cardCornerRadius="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                >
+                <ImageView
+                    android:id="@+id/roundedimage1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/reshu2"
+                    />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </LinearLayout>
+        </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="175dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n\nDEVELOPER 1 :\n"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grandhe Sai Raghu Vamsi\nEmail -id :"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:id="@+id/srv"
+                android:text="@string/txtsrv"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="25dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n\nDEVELOPER 2 :\n"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VemiReddy Siddu Reddy\nEmail -id :"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:id="@+id/siddu"
+                android:linksClickable="true"
+                android:text="@string/txtsidd"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n\nDEVELOPER 3 :\n"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ammisetty Reshmanjali\nEmail -id :"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:id="@+id/reshu"
+                android:linksClickable="true"
+                android:text="@string/txtres"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
